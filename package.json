@@ -1,0 +1,19 @@
+{
+  "name": "secretsantavanillajs",
+  "version": "1.0.0",
+  "description": "## Details:  - I've combines Part I and Part II by writing a function that will fetch the family members from the database I created, then it will sort them into a random order. So each time the user presses the 'Randomize' button, this will happen.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piferdg/SecretSantaVanillaJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piferdg/SecretSantaVanillaJS/issues"
+  },
+  "homepage": "https://github.com/piferdg/SecretSantaVanillaJS#readme"
+}
