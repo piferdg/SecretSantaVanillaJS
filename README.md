@@ -24,5 +24,5 @@
   - Backend: https://secret-santa-challenge.herokuapp.com/family
 
 ## Testing
-  - I used Cypress for my testing. the test I wrote is in `cypress > integration > examples > SecretSanta.spec.js.`
-  - There is a screenshot of the passed tests, and the random family members in `cypress > screenshots > examples > SecretSanta.spec.js.`
+  - I used Cypress for my testing. the test I wrote is in `cypress > integration > secretSanta.spec.js.`
+  - There is a screenshot of the passed tests, and the random family members in `cypress > screenshots > examples > secretSanta.spec.js.`
