@@ -20,7 +20,7 @@ let apiURL = "https://secret-santa-challenge.herokuapp.com/family"
 //By using .sort, and Math.random I'm able to return a randomized array of family members. 
 //In line 25 I'm using console.log to check that Im getting the data that I want before populating it on the page.
 //There is one problem with this solution in its current form, sometimes family members names will match. Meaning sometimes 'Danny' will get 'Danny' as a secret santa. This can be resolved by pressing the 'Randomize' button again.
-//I would have to make an if/else statement to make sure that the the secret santa is '=== !Danny' (I'd need to do this for each name)  
+//I would have to make an if/else statement to make sure that the the secret santa is '!== "Danny"' (I'd need to do this for each name)  
 function getData() {
   let giftGiving = []
   fetch (apiURL)
