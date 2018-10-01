@@ -6,7 +6,7 @@
 
 ## Improvements I'd make
  - I will need to write an if/else statement that makes sure that the secret santa gift giver isn't getting themselves. For example, I would need to write something that says: 
-   - `if (giftGiver === !Danny) {
+   - `if (giftGiver !== 'Danny') {
     return personOne.innerText = giftGiving[0].name
       }`
   Because 'Danny' is hard coded as the first family member, something similar to this would ensure that the the first returned index ([0]) wouldn't be 'Danny'. It might even be better to run a `for each` on the family members to accomplish this.
